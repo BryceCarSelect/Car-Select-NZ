@@ -4,6 +4,7 @@ import { HomePage } from './pages/HomePage';
 import { AllDealsPage } from './pages/AllDealsPage';
 import { CarSelectorPage } from './pages/CarSelectorPage';
 import { VehicleOptionalityPage } from './pages/VehicleOptionalityPage';
+import { CarComparisonPage } from './pages/CarComparisonPage';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
                 <Route path="/deals" element={<AllDealsPage />} />
                 <Route path="/new" element={<CarSelectorPage />} />
                 <Route path="/options" element={<VehicleOptionalityPage />} />
+                <Route path="/comparison" element={<CarComparisonPage />} />
             </Routes>
         </Router>
     );
