@@ -9,6 +9,7 @@ import { CarReviewPage } from './pages/CarReviewPage';
 import { CarOffersPage } from './pages/CarOffersPage';
 import { CarOfferDetailPage } from './pages/CarOfferDetailPage';
 import { FleetLeasePage } from './pages/FleetLeasePage';
+import { SellCarPage } from './pages/SellCarPage';
 import './App.css';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
                 <Route path="/offers/:carId" element={<CarOffersPage />} />
                 <Route path="/offer-detail/:carId/:dealerId" element={<CarOfferDetailPage />} />
                 <Route path="/lease" element={<FleetLeasePage />} />
+                <Route path="/sell" element={<SellCarPage />} />
             </Routes>
         </Router>
     );
