@@ -9,17 +9,17 @@ export const ReviewsSection = () => {
         {
             brand: 'FORD',
             model: 'Ranger Hybrid',
-            image: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80',
+            image: 'https://images.unsplash.com/photo-1678037055154-492f436ea5a4?w=800&q=80',
         },
         {
             brand: 'TOYOTA',
             model: 'Rav4',
-            image: 'https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=800&q=80',
+            image: 'https://images.unsplash.com/photo-1617469767053-d3b523a0b982?w=800&q=80',
         },
         {
             brand: 'BYD',
             model: 'Shark 6 Hybrid',
-            image: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80',
+            image: 'https://images.unsplash.com/photo-1762198455091-e17ddd2f150b?w=800&q=80',
         },
     ];
     
