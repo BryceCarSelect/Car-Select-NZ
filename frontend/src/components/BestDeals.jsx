@@ -116,13 +116,15 @@ export const BestDeals = () => {
                 </div>
                 
                 <div className="text-center mt-8">
-                    <Button
-                        size="lg"
-                        variant="outline"
-                        className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground px-12 py-6 text-base font-bold rounded-xl transition-all"
-                    >
-                        View All Deals
-                    </Button>
+                    <Link to="/deals">
+                        <Button
+                            size="lg"
+                            variant="outline"
+                            className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground px-12 py-6 text-base font-bold rounded-xl transition-all"
+                        >
+                            View All Deals
+                        </Button>
+                    </Link>
                 </div>
             </div>
         </section>
