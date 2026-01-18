@@ -20,7 +20,7 @@ export const Navigation = () => {
         { name: 'NEW', href: '/new' },
         { name: 'USED', href: '#used' },
         { name: 'SELL', href: '#sell' },
-        { name: 'LEASE', href: '#lease' },
+        { name: 'LEASE', href: '/lease' },
         { name: 'RESEARCH', href: '#research' },
     ];
     
