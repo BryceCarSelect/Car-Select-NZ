@@ -51,7 +51,7 @@ export const VehicleOptionalityPage = () => {
     
     const handleNext = () => {
         console.log('Filters:', { priceMin, priceMax, seatsMin, seatsMax, powertrain, drivetrain, bootSpace, equipment });
-        navigate('/deals');
+        navigate('/comparison');
     };
     
     const equipmentOptions = [
