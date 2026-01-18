@@ -114,7 +114,7 @@ export const CarReviewPage = () => {
                             
                             <Button
                                 size="lg"
-                                onClick={() => navigate('/comparison')}
+                                onClick={() => navigate(`/offers/${carId || 1}`)}
                                 className="w-full mt-4 bg-accent hover:bg-accent/90 text-accent-foreground font-bold py-6"
                             >
                                 GET THE BEST DEALS
