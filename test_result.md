@@ -251,8 +251,34 @@ test_plan:
   test_all: false
   test_priority: "high_first"
 
+  - task: "All Deals Page"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/AllDealsPage.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "testing"
+        comment: "Need to test All Deals page (/deals route) comprehensively including: page loading & navigation, hero section with headline and CTA buttons, selling estimator banner, deals section with 3 deal cards (Ford Ranger, Kia Sorento, BMW 5-Series), footer, and responsiveness across different viewport sizes"
+
+metadata:
+  created_by: "testing_agent"
+  version: "1.0"
+  test_sequence: 2
+
+test_plan:
+  current_focus:
+    - "All Deals Page"
+  stuck_tasks: []
+  test_all: false
+  test_priority: "high_first"
+
 agent_communication:
   - agent: "testing"
     message: "Starting comprehensive testing of Car Select NZ homepage. Will test all sections including navigation, hero, FAQ accordion, deals, promotion, reviews, news, and footer for functionality, animations, and responsiveness."
   - agent: "testing"
     message: "✅ COMPREHENSIVE TESTING COMPLETED SUCCESSFULLY! All 9 major sections of the Car Select NZ homepage are fully functional. Navigation with sticky behavior works perfectly, hero section with gradient animations displays beautifully, FAQ accordion functions smoothly, all deal sections show properly with hover effects, featured promotion displays correctly, reviews and news sections work as expected, and footer is complete. Mobile responsiveness tested and working across all viewport sizes. Only minor React warning in console (non-critical). Homepage is ready for investor presentation."
+  - agent: "testing"
+    message: "Starting comprehensive testing of All Deals page (/deals route). Will test page loading, navigation, hero section, selling estimator banner, deals section with 3 deal cards, footer, and responsiveness across multiple viewport sizes."
