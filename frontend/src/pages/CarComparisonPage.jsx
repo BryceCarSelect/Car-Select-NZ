@@ -216,9 +216,11 @@ export const CarComparisonPage = () => {
                                             </div>
                                             
                                             {/* Arrow Button */}
-                                            <button className="flex-shrink-0 w-16 h-16 bg-primary rounded-full flex items-center justify-center hover:bg-primary/90 transition-all group/btn shadow-lg">
-                                                <ArrowRight className="w-6 h-6 text-primary-foreground group-hover/btn:translate-x-1 transition-transform" />
-                                            </button>
+                                            <Link to={`/review/${car.id}`}>
+                                                <button className="flex-shrink-0 w-16 h-16 bg-primary rounded-full flex items-center justify-center hover:bg-primary/90 transition-all group/btn shadow-lg">
+                                                    <ArrowRight className="w-6 h-6 text-primary-foreground group-hover/btn:translate-x-1 transition-transform" />
+                                                </button>
+                                            </Link>
                                         </div>
                                     </div>
                                 </Card>
