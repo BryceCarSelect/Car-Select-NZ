@@ -111,6 +111,14 @@ export const CarReviewPage = () => {
                                 <Play className="mr-2 h-5 w-5 fill-current" />
                                 VIDEO REVIEW
                             </Button>
+                            
+                            <Button
+                                size="lg"
+                                onClick={() => navigate('/comparison')}
+                                className="w-full mt-4 bg-accent hover:bg-accent/90 text-accent-foreground font-bold py-6"
+                            >
+                                GET THE BEST DEALS
+                            </Button>
                         </div>
                         
                         <div>
