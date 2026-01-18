@@ -239,7 +239,7 @@ export const CarReviewPage = () => {
                             <div className="mt-8 text-center">
                                 <Button
                                     size="lg"
-                                    onClick={() => navigate('/comparison')}
+                                    onClick={() => navigate(`/offers/${carId || 1}`)}
                                     className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold px-12 py-6 text-lg"
                                 >
                                     GET THE BEST DEALS ON THIS MODEL
