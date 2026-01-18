@@ -122,12 +122,23 @@ export const CarReviewPage = () => {
                         </div>
                         
                         <div>
-                            <h1 className="text-3xl lg:text-4xl font-black text-primary mb-2">
-                                PEUGEOT 3008
-                            </h1>
-                            <h2 className="text-2xl lg:text-3xl font-bold text-accent mb-6">
-                                ALLURE HYBRID
-                            </h2>
+                            <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 mb-6">
+                                <div>
+                                    <h1 className="text-3xl lg:text-4xl font-black text-primary mb-2">
+                                        PEUGEOT 3008
+                                    </h1>
+                                    <h2 className="text-2xl lg:text-3xl font-bold text-accent">
+                                        ALLURE HYBRID
+                                    </h2>
+                                </div>
+                                <Button
+                                    size="lg"
+                                    onClick={() => navigate('/comparison')}
+                                    className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold px-8 py-6 whitespace-nowrap"
+                                >
+                                    GET THE BEST DEALS
+                                </Button>
+                            </div>
                             
                             <div className="flex items-center gap-2 mb-6">
                                 <div className="flex">
