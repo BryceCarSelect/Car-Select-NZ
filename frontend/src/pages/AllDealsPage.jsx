@@ -58,21 +58,25 @@ export const AllDealsPage = () => {
                             </h1>
                             
                             <div className="flex flex-col sm:flex-row gap-4">
-                                <Button
-                                    size="lg"
-                                    className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-sm font-bold rounded-xl shadow-lg hover:shadow-xl transition-all group"
-                                >
-                                    SELECT A CAR
-                                    <Search className="ml-2 h-5 w-5 group-hover:scale-110 transition-transform" />
-                                </Button>
+                                <Link to="/new" className="w-full sm:w-auto">
+                                    <Button
+                                        size="lg"
+                                        className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-sm font-bold rounded-xl shadow-lg hover:shadow-xl transition-all group w-full"
+                                    >
+                                        SELECT A CAR
+                                        <Search className="ml-2 h-5 w-5 group-hover:scale-110 transition-transform" />
+                                    </Button>
+                                </Link>
                                 
-                                <Button
-                                    size="lg"
-                                    className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-sm font-bold rounded-xl shadow-lg hover:shadow-xl transition-all group"
-                                >
-                                    COMPARE ALL YOUR OPTIONS
-                                    <BarChart3 className="ml-2 h-5 w-5 group-hover:scale-110 transition-transform" />
-                                </Button>
+                                <Link to="/new" className="w-full sm:w-auto">
+                                    <Button
+                                        size="lg"
+                                        className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-sm font-bold rounded-xl shadow-lg hover:shadow-xl transition-all group w-full"
+                                    >
+                                        COMPARE ALL YOUR OPTIONS
+                                        <BarChart3 className="ml-2 h-5 w-5 group-hover:scale-110 transition-transform" />
+                                    </Button>
+                                </Link>
                             </div>
                         </motion.div>
                         
