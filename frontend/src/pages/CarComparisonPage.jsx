@@ -194,13 +194,13 @@ export const CarComparisonPage = () => {
                                             </p>
                                             
                                             {/* Our Review Link */}
-                                            <a
-                                                href={car.reviewLink}
+                                            <Link
+                                                to={`/review/${car.id}`}
                                                 className="inline-flex items-center text-sm font-semibold text-primary hover:text-accent transition-colors mb-4"
                                             >
                                                 Our Review
                                                 <ExternalLink className="ml-1 h-3 w-3" />
-                                            </a>
+                                            </Link>
                                         </div>
                                         
                                         {/* Price and Arrow */}
