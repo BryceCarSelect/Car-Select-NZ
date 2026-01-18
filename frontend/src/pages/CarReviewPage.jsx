@@ -235,6 +235,16 @@ export const CarReviewPage = () => {
                                     <strong>Rating: 4.5/5</strong> - A refined, efficient, and feature-rich hybrid SUV that successfully balances eco-credentials with everyday usability.
                                 </p>
                             </div>
+                            
+                            <div className="mt-8 text-center">
+                                <Button
+                                    size="lg"
+                                    onClick={() => navigate('/comparison')}
+                                    className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold px-12 py-6 text-lg"
+                                >
+                                    GET THE BEST DEALS ON THIS MODEL
+                                </Button>
+                            </div>
                         </div>
                     </div>
                     
