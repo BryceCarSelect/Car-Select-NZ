@@ -41,9 +41,9 @@ export const CarSelectorPage = () => {
     };
     
     const handleNext = () => {
-        // Navigate to next step with selected body styles
+        // Navigate to vehicle optionality page with selected body styles
         console.log('Selected body styles:', selectedBodyStyles);
-        navigate('/deals');
+        navigate('/options');
     };
     
     return (
