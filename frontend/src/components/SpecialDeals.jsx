@@ -10,7 +10,7 @@ export const SpecialDeals = () => {
             title: 'NEW CAR',
             subtitle: 'SPECIAL DEALS',
             description: 'Get the latest models at unbeatable prices',
-            image: 'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600&q=80',
+            image: 'https://images.unsplash.com/photo-1672737936853-e47e1641ac40?w=600&q=80',
             color: 'from-blue-500/10 to-cyan-500/10',
         },
         {
@@ -18,7 +18,7 @@ export const SpecialDeals = () => {
             title: 'EV/HYBRID',
             subtitle: 'CAR SPECIALS',
             description: 'Drive green with exclusive electric deals',
-            image: 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=600&q=80',
+            image: 'https://images.unsplash.com/photo-1707758283398-7df21adba23a?w=600&q=80',
             color: 'from-green-500/10 to-emerald-500/10',
         },
         {
@@ -26,7 +26,7 @@ export const SpecialDeals = () => {
             title: 'LEASING',
             subtitle: 'SPECIAL DEALS',
             description: 'Flexible leasing options for every budget',
-            image: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=600&q=80',
+            image: 'https://images.unsplash.com/photo-1722591602044-17962109fa91?w=600&q=80',
             color: 'from-purple-500/10 to-pink-500/10',
         },
         {
@@ -34,7 +34,7 @@ export const SpecialDeals = () => {
             title: 'COMPARE',
             subtitle: 'OPTIONS',
             description: 'Side-by-side comparisons made easy',
-            image: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&q=80',
+            image: 'https://images.unsplash.com/photo-1731142582229-e0ee70302c02?w=600&q=80',
             color: 'from-orange-500/10 to-red-500/10',
         },
     ];
