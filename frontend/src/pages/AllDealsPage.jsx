@@ -69,7 +69,7 @@ export const AllDealsPage = () => {
                                     size="lg"
                                     className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-sm font-bold rounded-xl shadow-lg hover:shadow-xl transition-all group"
                                 >
-                                    COMPARE ALL YOUR OPTIOINS
+                                    COMPARE ALL YOUR OPTIONS
                                     <BarChart3 className="ml-2 h-5 w-5 group-hover:scale-110 transition-transform" />
                                 </Button>
                             </div>
