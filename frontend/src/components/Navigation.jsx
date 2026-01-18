@@ -35,12 +35,12 @@ export const Navigation = () => {
             <div className="container mx-auto px-4 lg:px-8">
                 <div className="flex items-center justify-between h-20">
                     {/* Logo */}
-                    <motion.a
-                        href="#home"
-                        className="flex items-center space-x-2"
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
-                    >
+                    <Link to="/">
+                        <motion.div
+                            className="flex items-center space-x-2 cursor-pointer"
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}
+                        >
                         <div className="relative">
                             <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center">
                                 <svg className="w-7 h-7 text-primary-foreground" fill="currentColor" viewBox="0 0 24 24">
