@@ -57,13 +57,15 @@ export const HeroSection = () => {
                         variants={itemVariants}
                         className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8"
                     >
-                        <Button
-                            size="lg"
-                            className="bg-primary hover:bg-primary/90 text-primary-foreground px-10 py-6 text-base font-bold rounded-xl shadow-lg hover:shadow-xl transition-all group w-full sm:w-auto"
-                        >
-                            BUY
-                            <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                        </Button>
+                        <Link to="/new" className="w-full sm:w-auto">
+                            <Button
+                                size="lg"
+                                className="bg-primary hover:bg-primary/90 text-primary-foreground px-10 py-6 text-base font-bold rounded-xl shadow-lg hover:shadow-xl transition-all group w-full"
+                            >
+                                BUY
+                                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                            </Button>
+                        </Link>
                         
                         <Button
                             size="lg"
@@ -73,14 +75,16 @@ export const HeroSection = () => {
                             <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                         </Button>
                         
-                        <Button
-                            size="lg"
-                            variant="outline"
-                            className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground px-10 py-6 text-base font-bold rounded-xl shadow-lg hover:shadow-xl transition-all group w-full sm:w-auto"
-                        >
-                            SELECT A CAR
-                            <Search className="ml-2 h-5 w-5 group-hover:scale-110 transition-transform" />
-                        </Button>
+                        <Link to="/new" className="w-full sm:w-auto">
+                            <Button
+                                size="lg"
+                                variant="outline"
+                                className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground px-10 py-6 text-base font-bold rounded-xl shadow-lg hover:shadow-xl transition-all group w-full"
+                            >
+                                SELECT A CAR
+                                <Search className="ml-2 h-5 w-5 group-hover:scale-110 transition-transform" />
+                            </Button>
+                        </Link>
                     </motion.div>
                 </motion.div>
             </div>
