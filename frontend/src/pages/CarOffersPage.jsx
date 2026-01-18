@@ -275,6 +275,7 @@ export const CarOffersPage = () => {
                                         <div className="space-y-3">
                                             <Button
                                                 size="lg"
+                                                onClick={() => navigate(`/offer-detail/${carId || 1}/${dealers[currentDealerIndex].id}`)}
                                                 className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold py-6"
                                             >
                                                 SEE OFFER
