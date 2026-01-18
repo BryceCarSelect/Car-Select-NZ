@@ -67,13 +67,15 @@ export const HeroSection = () => {
                             </Button>
                         </Link>
                         
-                        <Button
-                            size="lg"
-                            className="bg-primary hover:bg-primary/90 text-primary-foreground px-10 py-6 text-base font-bold rounded-xl shadow-lg hover:shadow-xl transition-all group w-full sm:w-auto"
-                        >
-                            SELL
-                            <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                        </Button>
+                        <Link to="/sell" className="w-full sm:w-auto">
+                            <Button
+                                size="lg"
+                                className="bg-primary hover:bg-primary/90 text-primary-foreground px-10 py-6 text-base font-bold rounded-xl shadow-lg hover:shadow-xl transition-all group w-full"
+                            >
+                                SELL
+                                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                            </Button>
+                        </Link>
                         
                         <Link to="/new" className="w-full sm:w-auto">
                             <Button
