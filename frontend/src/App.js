@@ -5,6 +5,7 @@ import { AllDealsPage } from './pages/AllDealsPage';
 import { CarSelectorPage } from './pages/CarSelectorPage';
 import { VehicleOptionalityPage } from './pages/VehicleOptionalityPage';
 import { CarComparisonPage } from './pages/CarComparisonPage';
+import { CarReviewPage } from './pages/CarReviewPage';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
                 <Route path="/new" element={<CarSelectorPage />} />
                 <Route path="/options" element={<VehicleOptionalityPage />} />
                 <Route path="/comparison" element={<CarComparisonPage />} />
+                <Route path="/review/:carId" element={<CarReviewPage />} />
             </Routes>
         </Router>
     );
