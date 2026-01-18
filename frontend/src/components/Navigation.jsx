@@ -102,14 +102,25 @@ export const Navigation = () => {
                         className="md:hidden py-4 border-t border-border"
                     >
                         {navLinks.map((link) => (
-                            <a
-                                key={link.name}
-                                href={link.href}
-                                onClick={() => setIsMobileMenuOpen(false)}
-                                className="block px-4 py-3 text-sm font-semibold text-foreground hover:text-primary hover:bg-muted transition-colors"
-                            >
-                                {link.name}
-                            </a>
+                            link.href.startsWith('/') ? (
+                                <Link
+                                    key={link.name}
+                                    to={link.href}
+                                    onClick={() => setIsMobileMenuOpen(false)}
+                                    className="block px-4 py-3 text-sm font-semibold text-foreground hover:text-primary hover:bg-muted transition-colors"
+                                >
+                                    {link.name}
+                                </Link>
+                            ) : (
+                                <a
+                                    key={link.name}
+                                    href={link.href}
+                                    onClick={() => setIsMobileMenuOpen(false)}
+                                    className="block px-4 py-3 text-sm font-semibold text-foreground hover:text-primary hover:bg-muted transition-colors"
+                                >
+                                    {link.name}
+                                </a>
+                            )
                         ))}
                     </motion.div>
                 )}
