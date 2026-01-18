@@ -41,7 +41,7 @@ Your platform has:
 
 **What you have now:**
 ```
-https://kiwi-carwow.preview.emergentagent.com
+https://carselect-prototype.preview.emergentagent.com
 ```
 
 **Pros:**
@@ -207,7 +207,7 @@ If you want `www.carselectnz.co.nz`:
 
 1. **Use your Emergent preview URL:**
    ```
-   https://kiwi-carwow.preview.emergentagent.com
+   https://carselect-prototype.preview.emergentagent.com
    ```
    - Share this link
    - It's live and working
