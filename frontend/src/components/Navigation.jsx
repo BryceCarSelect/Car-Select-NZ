@@ -55,7 +55,8 @@ export const Navigation = () => {
                             <span className="text-xl font-black tracking-tight text-primary">CAR SELECT</span>
                             <span className="text-[9px] font-semibold text-muted-foreground tracking-wider">NZ OWNED & OPERATED</span>
                         </div>
-                    </motion.a>
+                        </motion.div>
+                    </Link>
                     
                     {/* Desktop Navigation */}
                     <div className="hidden md:flex items-center space-x-1">
