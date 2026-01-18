@@ -14,7 +14,7 @@ export const BestDeals = () => {
             model: 'RANGER',
             badge: 'NEW FORD',
             savings: 'AV. SAVING OF $4,293',
-            image: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80',
+            image: 'https://images.unsplash.com/photo-1653102284085-aa5420886ea6?w=800&q=80',
             color: 'from-blue-600 to-blue-700',
         },
         {
@@ -22,7 +22,7 @@ export const BestDeals = () => {
             model: 'SORENTO',
             badge: 'NEW KIA',
             savings: 'AV. SAVING OF $5,208',
-            image: 'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&q=80',
+            image: 'https://images.unsplash.com/photo-1694649686884-0d62d0dc47d1?w=800&q=80',
             color: 'from-slate-600 to-slate-700',
         },
         {
@@ -30,7 +30,7 @@ export const BestDeals = () => {
             model: '5-SERIES',
             badge: 'NEW BMW',
             savings: 'AV. SAVING OF $3,499',
-            image: 'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&q=80',
+            image: 'https://images.unsplash.com/photo-1716066242980-c864821b1b67?w=800&q=80',
             color: 'from-gray-700 to-gray-800',
         },
     ];
