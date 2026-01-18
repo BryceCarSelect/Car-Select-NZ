@@ -17,7 +17,7 @@ export const Navigation = () => {
     }, []);
     
     const navLinks = [
-        { name: 'NEW', href: '#new' },
+        { name: 'NEW', href: '/new' },
         { name: 'USED', href: '#used' },
         { name: 'SELL', href: '#sell' },
         { name: 'LEASE', href: '#lease' },
